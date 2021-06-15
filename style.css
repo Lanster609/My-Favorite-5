@@ -1,0 +1,86 @@
+#home{
+    text-align: center;
+    background: linear-gradient(#eed9ff 0%, #1f0038 100%);
+    color: bisque;
+    background-repeat: no-repeat;
+}
+#heading{
+    text-shadow: 2px 2px #010026;
+}
+.line{
+    height:6px;
+    background-color:black;
+    width:70px;
+    margin:8px auto;
+}
+#soccer{
+    border-radius: 50%
+        width:100px;
+}
+#about{
+    text-align: center;
+    background-color: lightblue;
+    color: crimson;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position:fixed;
+    background: white;
+    width:100%;
+    top:0px;
+    margin-top:0px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    display:inline;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 22px;
+}
+#descript{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 40px;
+}
+.links:hover{
+    background-color:aquamarine;
+    font-size: 27px;
+    color:bisque;
+}
+#positions{
+    background-color: lightslategray;
+    color: white;
+}
+#p{
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+#inspirations img{
+    transition: transform .2s;
+    width:600px;
+    height:600px;
+}
+#inspirations img:hover{
+    transform: scale(0.9);
+}
+#inspirations{
+    text-align: center;
+}
+#contact{
+    background-color:fuchsia;
+    padding-top: 50px;
+}
+.contact_1 a{
+    color:black;
+    text-shadow: none;
+    padding-left: 71px;
+    padding-bottom: 50px;
+    text-decoration:none;
+}
+.contact_1 h3{
+    display:inline;
+}
